@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo&family=Amatic+SC&family=Bangers&family=Bebas+Neue&family=Boogaloo&family=Dancing+Script:wght@500&family=Foldit:wght@600&family=Hammersmith+One&family=Kalam&family=Kaushan+Script&family=League+Gothic&family=Lobster+Two&family=Oswald&family=Patrick+Hand&family=Poppins:wght@200&family=Roboto+Condensed&family=Roboto:wght@500&family=Rouge+Script&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/402d710096.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-body">
+        <div class="card" id="card">
+            <div class="weather-search">
+                <input type="text" placeholder="search city" id="search">
+                <i id='btn' class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="deg">
+                <img src="clouds.png" id="image">
+
+                <h1 id="degree">0</h1>
+                <h1 id='location'>place name</h1>
+            </div>
+
+            <div class="climate">
+                <div class="main-container">
+                    <div class="humidity">
+                        <img src="humidity.png">
+                    </div>
+                    <div class="items">
+                        <h1 id="hum">0</h1>
+                        <h6>humidity</h6>
+                    </div>
+                </div>
+                <div class="main-container c2">
+                    <div class="humidity wind">
+                        <img src="wind.png">
+                    </div>
+                    <div class="items i2">
+                        <h1 id="winds">70</h1>
+                        <h6>Wind Speed</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="date">
+                <h3 id="desc">Description : </h3>
+            </div>
+            <br>
+        </div>
+       
+    </div>
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
